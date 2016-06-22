@@ -23,8 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.myweather.app.activity.WeatherActivity">
-            
+            android:name="com.myweather.app.activity.WeatherActivity"> 
+        </activity>
+        <activity
+            android:name="com.myweather.app.service.AutoUpdateService"> 
+        </activity>
+        <activity
+            android:name="com.myweather.app.receiver.AutoUpdateService"> 
         </activity>
     </application>
 
